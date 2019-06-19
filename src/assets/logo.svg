@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="383" height="98" viewBox="0 0 383 98">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-logo);
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        fill: #707070;
+      }
+
+      .cls-2 {
+        font-size: 46px;
+      }
+
+      .cls-2, .cls-5 {
+        font-family: Pacifico-Regular, Pacifico;
+        letter-spacing: 0.3em;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-4 {
+        font-size: 36px;
+        font-family: NSimSun;
+      }
+
+      .cls-5 {
+        font-size: 40px;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+
+      .cls-7 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-logo">
+      <rect width="383" height="98"/>
+    </clipPath>
+  </defs>
+  <g id="logo" class="cls-1">
+    <text id="manas" class="cls-2" transform="translate(14.36 64.184)"><tspan x="0" y="0">manas</tspan></text>
+    <g id="Ellipse_7" data-name="Ellipse 7" class="cls-3" transform="translate(169 14)">
+      <ellipse class="cls-6" cx="33" cy="33.354" rx="33" ry="33.354"/>
+      <ellipse class="cls-7" cx="33" cy="33.354" rx="32.5" ry="32.854"/>
+    </g>
+    <g id="Ellipse_8" data-name="Ellipse 8" class="cls-3" transform="translate(173 18)">
+      <ellipse class="cls-6" cx="29" cy="29.354" rx="29" ry="29.354"/>
+      <ellipse class="cls-7" cx="29" cy="29.354" rx="28.5" ry="28.854"/>
+    </g>
+    <text id="MP" class="cls-4" transform="translate(185.429 60.799)"><tspan x="0" y="0">MP</tspan></text>
+    <text id="patel" class="cls-5" transform="translate(243 62)"><tspan x="0" y="0">patel</tspan></text>
+  </g>
+</svg>

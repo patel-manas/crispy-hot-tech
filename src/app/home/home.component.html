@@ -1,0 +1,31 @@
+<section class="logo" id="_logo">
+  <app-svg-logo></app-svg-logo>
+</section>
+<header>
+  <nav #navBar>
+    <div 
+      *ngFor = "let navItem of navItems; let i = index" 
+      class="{{navItem.active ? 'active': ''}}"
+      (click) = "toggleMenuBarItem(i, navItem)">
+      {{navItem.header}}
+    </div>
+  </nav>
+</header>
+<section class="banner">
+  <div class="background-1">
+    <div class="layer-1">
+      <span>Food</span>
+    </div>
+  </div>
+  <div class="background-2">
+    <div class="layer-2">
+      <span>Travel</span>
+    </div>
+  </div>
+  <div class="background-3">
+    <div class="layer-3">
+      <span>Technology</span>
+    </div>
+  </div>
+</section>
+<app-blogs></app-blogs>
