@@ -1,7 +1,8 @@
+<section class="sticky-bar">
 <section class="logo" id="_logo">
   <app-svg-logo></app-svg-logo>
 </section>
-<header>
+<header class="header-bar">
   <nav #navBar>
     <div 
       *ngFor = "let navItem of navItems; let i = index" 
@@ -10,22 +11,12 @@
       {{navItem.header}}
     </div>
   </nav>
+  <app-search-box></app-search-box>
 </header>
-<section class="banner">
-  <div class="background-1">
-    <div class="layer-1">
-      <span>Food</span>
-    </div>
-  </div>
-  <div class="background-2">
-    <div class="layer-2">
-      <span>Travel</span>
-    </div>
-  </div>
-  <div class="background-3">
-    <div class="layer-3">
-      <span>Technology</span>
-    </div>
-  </div>
 </section>
+<section class="banner">
+<app-banner></app-banner>
+</section>
+<section class="blogs">
 <app-blogs></app-blogs>
+</section>

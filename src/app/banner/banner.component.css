@@ -1,0 +1,67 @@
+section.banner {
+    display: flex;
+    width: 100%;
+  }
+  
+  
+    .background-1, .background-2, .background-3 {
+      width: 33.3333%;
+      height: 463px;
+      position: relative;
+      top: 0;
+      left: 0;
+  }
+  .layer-1, .layer-2, .layer-3 {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      font-family: 'water-lily';
+      font-size: 40px;
+      font-weight: bold;
+      color: beige;
+      box-sizing: border-box;
+  }
+  
+  section.banner span {
+      background: rgba(0, 58, 112, 0.5);
+      padding: 5px 0px;
+      width: 100%;
+      text-align: center;
+  }
+  
+  .background-1 {
+    background: url("../../assets/food.jpg");
+  }
+  
+  .layer-1 {
+    background-color: rgba(0,116,225, 0.3);
+  }
+  .background-2 {
+    background: url("../../assets/travel.jpg");
+  }
+  
+  .layer-2 {
+    background-color: rgba(0,116,225, 0.2);
+  }
+  .background-3 {
+    background: url("../../assets/tech.jpg");
+  }
+  
+  .layer-3 {
+    background-color: rgba(0,116,225, 0.1);
+  }
+  
+  .layer-1 span {
+      background: rgba(0, 58, 112, 0.3);
+  }
+  .layer-1 span {
+      background: rgba(0, 58, 112, 0.3);
+  }
+  .layer-3 span {
+      background: rgba(0, 58, 112, 0.1);
+  }

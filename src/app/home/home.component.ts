@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   navItems: {header: string, active: boolean}[] = [
-    {header: 'Posts', active: true},
+    {header: 'Home', active: true},
+    {header: 'Posts', active: false},
     {header: 'Catagory', active: false},
     {header: 'Profile', active: false},
     {header: 'Contact Me', active: false}

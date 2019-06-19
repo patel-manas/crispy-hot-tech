@@ -1,2 +1,10 @@
-<app-blog></app-blog>
 
+<ng-container *ngFor = "let blog of blogs">
+    <app-blog 
+        class="blog-item"
+        [imgUrl] = "'https://github.com/patel-manas/assets/blob/master/1.jpg'"
+        [title] = "'Nest.JS Zero to Hero'"
+        [shortDesc] = "'Learn Nest.js like never before'"
+        [publishedDate] = "'29-04-2019'"
+        [category] ="'Technology'"></app-blog>
+</ng-container>

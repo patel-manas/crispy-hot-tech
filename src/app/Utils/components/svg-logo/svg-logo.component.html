@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="412" height="98" viewBox="0 0 412 98">
+<svg *ngIf = "size === 'large'" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="412" height="98" viewBox="0 0 412 98">
   <defs>
     <style>
       .cls-1 {
@@ -56,5 +56,61 @@
     </g>
     <text id="MP" class="cls-4" transform="translate(205.429 60.799)"><tspan x="0" y="0">MP</tspan></text>
     <text id="patel" class="cls-5" transform="translate(267 60)"><tspan x="0" y="0">patel</tspan></text>
+  </g>
+</svg>
+
+<svg *ngIf = "size === 'small'" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="208" height="83" viewBox="0 0 208 83">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-logo_small);
+      }
+
+      .cls-2, .cls-4 {
+        fill: #707070;
+      }
+
+      .cls-2 {
+        font-size: 23px;
+        font-family: Pacifico-Regular, Pacifico;
+        letter-spacing: 0.3em;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-4 {
+        font-size: 18px;
+        font-family: NSimSun;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-logo_small">
+      <rect width="208" height="83"/>
+    </clipPath>
+  </defs>
+  <g id="logo_small" class="cls-1">
+    <text id="manas" class="cls-2" transform="translate(2.36 62.184)"><tspan x="0" y="0">manas</tspan></text>
+    <g id="Group_2" data-name="Group 2" transform="translate(-98 28)">
+      <g id="Ellipse_7" data-name="Ellipse 7" class="cls-3" transform="translate(189 14)">
+        <circle class="cls-5" cx="16.5" cy="16.5" r="16.5"/>
+        <circle class="cls-6" cx="16.5" cy="16.5" r="16"/>
+      </g>
+      <g id="Ellipse_8" data-name="Ellipse 8" class="cls-3" transform="translate(192 17)">
+        <circle class="cls-5" cx="13.5" cy="13.5" r="13.5"/>
+        <circle class="cls-6" cx="13.5" cy="13.5" r="13"/>
+      </g>
+      <text id="MP" class="cls-4" transform="translate(197.429 36.799)"><tspan x="0" y="0">MP</tspan></text>
+    </g>
+    <text id="patel" class="cls-2" transform="translate(134 62)"><tspan x="0" y="0">patel</tspan></text>
   </g>
 </svg>

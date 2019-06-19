@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-svg-logo',
@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SvgLogoComponent implements OnInit {
 
+  @Input('size') size: ('small' | 'large');
   constructor() { }
 
   ngOnInit() {
+    if(!this.size) {
+      this.size = 'large';
+    }
   }
 
 }
